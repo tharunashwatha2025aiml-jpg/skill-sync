@@ -1,0 +1,12 @@
+# SkillSync Example Configuration File
+# Copy to application.properties or set environment variables
+
+server.port=8080
+
+# Database Configuration (MySQL 8)
+DB_USERNAME=root
+DB_PASSWORD=your_mysql_password
+spring.datasource.url=jdbc:mysql://localhost:3306/skillsync?useSSL=false&serverTimezone=UTC
+
+# JWT / Secret Key
+JWT_SECRET=YourSuperSecretKeyForSkillSyncJWTAuth2026!
